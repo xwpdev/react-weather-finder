@@ -5,7 +5,7 @@ class WeatherCard extends Component {
     render() {
         return (
             <div>
-
+                Weather Card Is Here
             </div>
         );
     }

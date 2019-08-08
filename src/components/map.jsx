@@ -4,7 +4,9 @@ class Map extends Component {
     state = {}
     render() {
         return (
-            <div className="Map"></div>
+            <div className="row">
+                <div className="Map">Map Is Here</div>
+            </div>
         );
     }
 }
