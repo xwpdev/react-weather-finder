@@ -10,16 +10,12 @@ function App() {
       <h1>Weather Finder</h1>
       <hr />
       <div className="row">
-        <div class="row">
-          <div class="col">
-            <Search></Search>
-          </div>
-          <div class="w-100"></div>
-          <div class="col">
-            <WeatherCard></WeatherCard></div>
-          <div class="col">
-            <Map></Map>
-          </div>
+        <div className="col">
+          <Search></Search>
+        </div>
+        <div className="w-100"></div>
+        <div className="col">
+          <WeatherCard></WeatherCard>
         </div>
       </div>
     </div>
